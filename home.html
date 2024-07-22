@@ -15,32 +15,42 @@
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
+            align-items: center;
         }
         header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background: #f743b5;
             color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
+            padding: 30px 0;
             border-bottom: #e8491d 3px solid;
         }
         header h1 {
-            text-align: center;
-            text-transform: uppercase;
             margin: 0;
+            text-transform: uppercase;
+            text-align: center;
         }
         #main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
             background: #fff;
             margin-top: 20px;
         }
-        .image-gallery img {
-            width: 300px; /* Adjust the width to make the images smaller */
-            height: auto;
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-gallery a {
             margin: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+        }
+        .image-gallery img {
+            width: 300px;
+            height: auto;
         }
         footer {
             background: #333;
@@ -67,7 +77,6 @@
         <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/class.html">Our Products</a>
         
         <div class="image-gallery">
-            <h2>Gallery</h2>
             <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/curvy.html">
                 <img src="C:/Users/ADMIN/Desktop/1.webp" alt="Curvy Dress">
             </a>
@@ -78,10 +87,10 @@
                 <img src="C:/Users/ADMIN/Desktop/skirt.jpg" alt="Sophisticated Skirt">
             </a>
             <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/acceesories.html">
-                <img src="C:\Users\ADMIN\Desktop\images.jfif" alt="Chic Accessories">
+                <img src="C:/Users/ADMIN/Desktop/images.jfif" alt="Chic Accessories">
             </a>
             <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/bag.html">
-                <img src="C:\Users\ADMIN\Desktop\bags.webp" alt="Bags">
+                <img src="C:/Users/ADMIN/Desktop/bags.webp" alt="Bags">
             </a>
         </div>
     </div>
