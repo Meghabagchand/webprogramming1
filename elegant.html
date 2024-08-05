@@ -57,6 +57,35 @@
             padding: 10px 0;
             margin-top: 20px;
         }
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            #main .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            #main .images img {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            header img {
+                margin: 0 0 20px 0;
+            }
+            #main {
+                padding: 10px;
+            }
+            #main .images img {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -67,7 +96,7 @@
         </div>
     </header>
 
-    <div id="main" class="container">
+    <div id="main" class="container"> 
         <h2>Product Description</h2>
         <p>The Elegant Top is a versatile piece that can be dressed up or down. Its flattering fit and stylish design make it a must-have for any wardrobe. Perfect for pairing with skirts, jeans, or trousers, this top is ideal for any occasion.</p>
         <p>Features:</p>
@@ -82,7 +111,6 @@
             <img src="C:\Users\ADMIN\Pictures\sss.jpg" alt="Elegant Top">
         </div>
         <p>Price: $39.99</p>
-     
     </div>
 
     <footer>
