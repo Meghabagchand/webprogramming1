@@ -25,12 +25,21 @@
             border-bottom: #e8491d 3px solid;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
         }
         header h1 {
             text-transform: uppercase;
             margin: 0;
+            flex: 1;
             text-align: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #333;
+            border-radius: 5px;
+            margin-left: 20px;
         }
         #main {
             padding: 20px;
@@ -76,8 +85,9 @@
                 flex-direction: column;
                 text-align: center;
             }
-            header img {
-                margin: 0 0 20px 0;
+            header a {
+                margin-left: 0;
+                margin-bottom: 10px;
             }
             #main {
                 padding: 10px;
@@ -90,13 +100,11 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Elegant Top</h1>
-            <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/home.html">Back to Home</a>
-        </div>
+        <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/home.html">Back to Home</a>
+        <h1>Elegant Top</h1>
     </header>
 
-    <div id="main" class="container"> 
+    <div id="main" class="container">
         <h2>Product Description</h2>
         <p>The Elegant Top is a versatile piece that can be dressed up or down. Its flattering fit and stylish design make it a must-have for any wardrobe. Perfect for pairing with skirts, jeans, or trousers, this top is ideal for any occasion.</p>
         <p>Features:</p>

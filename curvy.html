@@ -27,17 +27,21 @@
             border-bottom: #e8491d 3px solid;
             display: flex;
             align-items: center;
-            justify-content: center;
-        }
-        header img {
-            width: 150px;
-            height: auto;
-            margin-right: 20px;
+            justify-content: space-between;
         }
         header h1 {
             text-transform: uppercase;
             margin: 0;
             text-align: center;
+            flex: 1;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #333;
+            border-radius: 5px;
+            margin-left: 20px;
         }
         #main {
             padding: 20px;
@@ -95,8 +99,9 @@
                 flex-direction: column;
                 text-align: center;
             }
-            header img {
-                margin: 0 0 20px 0;
+            header a {
+                margin-left: 0;
+                margin-bottom: 10px;
             }
             #main {
                 padding: 10px;
@@ -109,10 +114,8 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Curvy Dress</h1>
-            <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/home.html">Back to Home</a>
-        </div>
+        <a href="file:///C:/Users/ADMIN/Desktop/Git/webprogramming1/webprogramming1/home.html">Back to Home</a>
+        <h1>Curvy Dress</h1>
     </header>
 
     <div id="main" class="container">
